@@ -16,14 +16,13 @@ public class TP_0_Function {
         System.out.println(intResultatSoustraction);
 
         tableDeMultiplication(5,13);
+        
         String strChiffre = codeCesar("ABCD", 2);
         System.out.println(strChiffre);
         
         int intBinaireConverti = conversionBaseDix(111);
         System.out.println(intBinaireConverti);
-        
-        System.out.print(codeCesar("ABCD", 2));
-        
+                
     }
     
     public static int simpleSoustraction(int intA, int intB)
