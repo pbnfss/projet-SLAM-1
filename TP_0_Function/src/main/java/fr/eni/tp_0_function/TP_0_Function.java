@@ -22,9 +22,10 @@ public class TP_0_Function {
         
         int intBinaireConverti = conversionBaseDix(111);
         System.out.println(intBinaireConverti);
-                
+        
+        simpleAffichageSoustraction(3,4);        
     }
-    
+
     public static int simpleSoustraction(int intA, int intB)
     {
         /*
@@ -32,6 +33,16 @@ public class TP_0_Function {
          * de la soustraction intA - intB.
          * Par exemple, si j'appelle la fonction simpleSoustraction(3,4);
          * Elle devra retourner -1
+        */
+    }
+    
+    public static void simpleAffichageSoustraction(int intA, int intB)
+    {
+        /*
+         * Vous devez simplement coder une fonction qui affiche le résultat
+         * de la soustraction intA - intB.
+         * Par exemple, si j'appelle la fonction simpleAffichageSoustraction(3,4);
+         * Elle devra afficher dans la console -1
         */
     }
     
