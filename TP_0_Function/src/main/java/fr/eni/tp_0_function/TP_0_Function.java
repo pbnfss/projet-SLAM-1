@@ -12,11 +12,28 @@ public class TP_0_Function {
 
     public static void main(String[] args) {
         
+        int intResultatSoustraction = simpleSoustraction(3,4);
+        System.out.println(intResultatSoustraction);
+
         tableDeMultiplication(5,13);
         String strChiffre = codeCesar("ABCD", 2);
         System.out.println(strChiffre);
+        
         int intBinaireConverti = conversionBaseDix(111);
         System.out.println(intBinaireConverti);
+        
+        System.out.print(codeCesar("ABCD", 2));
+        
+    }
+    
+    public static int simpleSoustraction(int intA, int intB)
+    {
+        /*
+         * Vous devez simplement coder une fonction qui retourne le résultat
+         * de la soustraction intA - intB.
+         * Par exemple, si j'appelle la fonction simpleSoustraction(3,4);
+         * Elle devra retourner -1
+        */
     }
     
     public static void tableDeMultiplication(int intTable, int intNbLimite)
