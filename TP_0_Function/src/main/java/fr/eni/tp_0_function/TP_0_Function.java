@@ -23,9 +23,23 @@ public class TP_0_Function {
         int intBinaireConverti = conversionBaseDix(111);
         System.out.println(intBinaireConverti);
         
-        simpleAffichageSoustraction(3,4);        
+        simpleAffichageSoustraction(3,4);
+
+        simpleEntreeEtAffichage();
     }
 
+     public static void simpleEntreeEtAffichage()
+    {
+        /*
+         * Vous devez simplement demander dans cette fonction à l'utilisateur 
+         * de rentrer un nombre. Ensuite, à l'aide de println(), vous devrez
+         * afficher ce nombre
+         * Par exemple, si j'appelle la fonction simpleEntreeEtAffichage();
+         * Elle demandera "Quel nombre voulez-vous afficher", et si l'utilisateur
+         * entre 3, la fonction devra afficher 3
+         * Cette fonction ne retourne rien.
+        */
+    }
     public static int simpleSoustraction(int intA, int intB)
     {
         /*
